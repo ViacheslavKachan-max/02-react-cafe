@@ -1,6 +1,6 @@
 .message {
     margin: 0;
-    background-color: #f1f3f5;
+    background: linear-gradient(90deg, #f1f3f5, #e0e0e0);
     color: #2d2d2d;
     border: 1px solid #d3d6da;
     border-radius: 4px;

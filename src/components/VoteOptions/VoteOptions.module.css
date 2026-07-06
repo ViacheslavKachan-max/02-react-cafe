@@ -6,28 +6,28 @@
 
 .button {
     padding: 10px 22px;
-    background-color: #0a66c2;
+    background: radial-gradient(circle, #0a66c2, #004182);
     color: #fff;
     border: 1px solid #0a66c2;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 500;
     cursor: pointer;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
+    transition: background 0.2s ease, border-color 0.2s ease;
     min-width: 120px;
 }
 
 .button:hover {
-    background-color: #004182;
+    background: radial-gradient(circle, #004182, #00264d);
     border-color: #003060;
 }
 
 .reset {
-    background-color: #dc3545;
+    background: radial-gradient(circle, #dc3545, #a71d2a);
     border-color: #dc3545;
 }
 
 .reset:hover {
-    background-color: #bb2d3b;
+    background: radial-gradient(circle, #bb2d3b, #8b1f2a);
     border-color: #b02a37;
 }
